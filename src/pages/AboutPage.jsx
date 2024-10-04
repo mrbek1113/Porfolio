@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import BekImg from '../imgs/src/imgs/bekBitiruv.jpg';
+import BekImg from '../imgs/bekBitiruv.jpg';
 
 const AboutPage = () => {
   // Define animation variants for text, image, and links
