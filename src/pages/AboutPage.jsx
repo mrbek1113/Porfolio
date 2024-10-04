@@ -20,11 +20,11 @@ const AboutPage = () => {
   };
 
   return (
-    <div className='flex flex-col lg:flex-row lg:gap-[100px] gap-10 items-center justify-center w-full min-h-[100vh] text-white bg-gradient-to-r from-stone-500 to-slate-800 bg-cover p-6'>
+    <div className='flex flex-col  lg:flex-row lg:gap-[100px] gap-10 items-center justify-center w-full min-h-[100vh] text-white bg-gradient-to-r from-stone-500 to-slate-800 bg-cover p-6'>
       {/* Animate text container */}
       <div className='w-full lg:w-auto text-center lg:text-left'>
         <motion.div initial="hidden" animate="visible" variants={textVariant}>
-          <h1 className="text-3xl lg:text-5xl font-bold bg-gradient-to-r from-gray-100 via-blue-500 to-green-800 text-transparent bg-clip-text animate-gradient">
+          <h1 className="text-3xl mt-[100px] lg:text-5xl font-bold bg-gradient-to-r from-gray-100 via-blue-500 to-green-800 text-transparent bg-clip-text animate-gradient">
             Hi, I'm Bek. I'm a web developer.
           </h1>
           <h2 className='text-3xl lg:text-5xl font-bold bg-gradient-to-r from-gray-100 via-blue-500 to-green-800 text-transparent bg-clip-text animate-gradient'>
