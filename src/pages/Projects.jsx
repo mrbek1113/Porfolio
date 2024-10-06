@@ -19,7 +19,7 @@ const Projects = () => {
                 variants={TextVariant}
                 className="py-[140px] px-[30px] flex justify-center items-center"
             >
-                <div className="w-[80%] sm:w-[300px] flex items-center text-white justify-center h-[200px] sm:h-[300px] rounded-3xl border-2 border-white">
+                <div className="w-[300px]  flex items-center text-white justify-center h-[300px]  rounded-3xl border-2 border-white">
                     <h1 className="text-[4vw] sm:text-[1.5vw]">It will be soon</h1>
                 </div>
             </motion.div>
